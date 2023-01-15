@@ -4,7 +4,7 @@ Project carried out for the course of Complex and Multiphase Flows at Polytech L
 
 | Made by | Referent teacher | 
 | ------------- |:-------------:|
-| Jérémy Archier & Nezha Bourakkadi | Mr. Alexis Giauque |
+| Jérémy Archier | Mr. Pierre Trontin |
 
 [Subject](Report/BE-rijke.pdf)
 
@@ -13,6 +13,6 @@ Project carried out for the course of Complex and Multiphase Flows at Polytech L
 
 ## Project
 ### Introduction
-The objective of this practical session was to investigate the acoustic properties of a flame organ experiment. Specifically, the goal was to determine the expected frequencies and to visualize the standing pressure eigenmodes within the tube.
+The next practical work aims to study the level-set method for interface tracking. This method is used to track the evolution of a surface in a velocity field. It is widely used in the fields of physics and engineering to model the evolution of surfaces in velocity fields, in order to simulate phenomena such as the deformation of solids, the diffusion of chemicals, and the propagation of waves. 
 
-To achieve this, the model was simplified by treating the flame as a boundary between a cold airflow and a hot flow. This simplified model was used to construct a stability map of the Rijke tube to identify the most unstable frequencies and the associated tones. By visualizing the structure of the standing pressure eigenmodes, we were able to use the Rayleigh criterion to describe their unstable nature.
+In this practical work, we will apply the level-set method to the test cases of the serpentine and the Zalesak disk. The serpentine test case consists of a deformation of a disk by a vortex, while the Zalesak disk test case consists of the advection of a disk in a velocity field. We will study different space and time schemes, as well as their coupling, and characterize their performance on the two test cases. We will also show the space (numerical) convergence error for each of the space schemes.
